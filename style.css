@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #3b2a1e;
+}
+
+header {
+  background-color: #8b5e3c;
+  color: white;
+  border-bottom: 4px solid #d2b48c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #f1d9b5;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url("img/hotel\ building.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background-color: rgba(80, 50, 30, 0.6);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  background-color: #d2b48c;
+  color: #3b2a1e;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #c19a6b;
+}
+
+.room,
+.dining,
+.experiences {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.room {
+  background-color: #faf6f1;
+}
+
+.dining {
+  background-color: #f3ebe1;
+}
+
+.experiences {
+  background-color: #faf6f1;
+}
+
+.room h2,
+.dining h2,
+.experiences h2 {
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card-btn {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 0 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #6b4226;
+}
+
+.contact {
+  padding: 50px 10%;
+  text-align: center;
+  background-color: #8b5e3c;
+  color: white;
+}
+
+.contact h2 {
+  margin-bottom: 15px;
+}

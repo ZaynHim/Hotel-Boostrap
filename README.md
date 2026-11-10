@@ -29,3 +29,22 @@ Each page has a button that takes you to the other page.
 No JavaScript was used in this project.
 
 ## Project Files
+
+```
+project/
+├── first-step.html
+├── second-step.html
+├── style.css
+├── img/
+└── boot-img/
+```
+
+## How to Run
+
+Open the project folder in VS Code, then right-click on first-step.html
+and choose "Open with Live Server".
+
+## Notes
+
+- The hotel information and images were taken from the official Brown's Hotel website.
+- AI was used to help organize the layout of the elements.
